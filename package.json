@@ -1,15 +1,17 @@
 {
-  "name": "proyectoheroku",
+  "name": "proyectoHeroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"  
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ezequielg1989/git-y-heroku.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,8 +19,6 @@
   },
   "homepage": "https://github.com/ezequielg1989/git-y-heroku#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "modules": "^0.4.0",
-    "node": "^16.6.1"
+    "express": "^4.17.1"
   }
 }
