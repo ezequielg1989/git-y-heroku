@@ -101,7 +101,8 @@ ul li a{
     color: black;
 }
 
-.titular{    
+.titular{   
+    text-align: center; 
     margin-top: 5%;
     margin-bottom: 7%;
     font-size: 0.9em;
@@ -155,6 +156,7 @@ ul li a{
     flex-direction: column;
     flex-wrap: wrap;
     padding-left: 2%;
+    align-items: center;
 }
 
 .box-art{
@@ -290,5 +292,6 @@ footer{
 
     .text-header{
         font-size: 35px;    
-    }   
+    }
+   
 }
