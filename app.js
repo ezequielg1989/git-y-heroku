@@ -5,7 +5,7 @@ app.use(express.static(path.join(__dirname, "./public")));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
-const puerto= process.env.PORT || 3000
+const puerto= process.env.PORT || 3001
 
 app.listen(puerto, () => {
   console.log("Server is running on PORT :"+puerto);
