@@ -4,14 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielg1989/git-y-heroku.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezequielg1989/git-y-heroku/issues"
+  },
+  "homepage": "https://github.com/ezequielg1989/git-y-heroku#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "modules": "^0.4.0",
     "node": "^16.6.1"
   }
 }
