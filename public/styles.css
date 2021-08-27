@@ -126,6 +126,11 @@ ul li a{
 
 .productos{
     padding:10px;
+    transition: 0.4s;
+}
+.productos:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
 }
 
 .off{
@@ -179,7 +184,6 @@ ul li a{
     width: 194px;
     height: 259px;
     background-color: #ebebeb;  
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .box{
@@ -190,10 +194,12 @@ ul li a{
 .box .description{
     display: none;
     
+    
 }
 
 .box:hover .description{
     display: block;
+    transition: 0.4s;
 
 }
 
@@ -218,6 +224,11 @@ footer{
     color: blue;
     padding-top: 10px;
     padding-bottom: 5px;
+    transition: 0.4s;
+}
+
+.footer-complete .icono:hover{
+    color: greenyellow;
 }
 
 .footer-pie{
