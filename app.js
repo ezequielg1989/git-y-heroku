@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
 app.get("register", (req,res)=>{
   res.sendFile(path.join(__dirname,"/register.html "))
 } );
+
+app.get("login", (req,res)=>{
+  res.sendFile(path.join(__dirname,"/login.html"))
+} );
 const puerto= process.env.PORT || 3001
 
 app.listen(puerto, () => {

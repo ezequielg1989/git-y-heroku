@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
-    <title>MercadoLiebre</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -63,72 +63,26 @@
             </div>  
         </nav>
     </header>
-    <main class="box-main">
-        <div class="container-main">
-            <section class="banner">
-                <img src="/imagenes/img-home-banner.jpg" alt="">
-            </section>
-            <section>
-                <div class="titular">
-                    <h3>Basado en tu ultima visita</h3>
+    <main class="main-box">
+        <form action="login" method="post">
+            <div class="form-item">
+                <label>nombre de usuario</label>
+                <input type="text"name="usuario" placeholder="nombre de usuario" class="input-form">
+            </div>
+            <div class="form-item">
+                <label>Elegi tu contraseña</label>
+                <input type="password"name="usuario" placeholder="ingresa tu contraseña"class="input-form">
+            </div>
+            <div class="btn-contain">
+                <div class="btn-login">
+                    <button type="submit">guardar</button>
                 </div>
-            </section>
-            <section class="principal">
-                <article class="productos">
-                    <div class="box-art">
-                        <img src="/imagenes/img-cafetera-moulinex.jpg" width="180" alt=""><br>
-                        <div class="box">
-                            <i class="fas fa-truck truck-icon"></i>
-                            <div class="container-product">
-                                <p class="precio">$6.770</p>
-                                <p class="off">40% off</p>
-                            </div>
-                            <h4 class="description">Cafetera Moulinex</h4>
-                        </div>
-                    </div>
-                </article>
-                <article class="productos">
-                    <div class="box-art">
-                        <img src="/imagenes/img-macbook-pro-2019.jpg" width="180" alt="Cafetera" class="product_img">
-                        <div class="box">
-                            <i class="fas fa-truck truck-icon"></i>
-                            <div class="container-product">
-                                <p class="precio">$100.770</p>
-                                <p class="off">40% off</p>
-                            </div>
-                            <h4 class="description">MacBook Pro 2019</h4>
-                        </div>
-                    </div>
-                </article> 
-                <article class="productos">
-                    <div class="box-art">
-                        <img src="/imagenes/img-samsung-galaxy-s10.jpg" width="180" alt="Cafetera" class="product_img">
-                        <div class="box">
-                            <i class="fas fa-truck truck-icon"></i>
-                            <div class="container-product">
-                                <p class="precio">$10.000</p>
-                                <p class="off">40% off</p>
-                            </div>
-                            <h4 class="description">Samsung Galaxy S10</h4>
-                        </div>
-                    </div>
-                </article>
-                <article class="productos">
-                    <div class="box-art">
-                        <img src="/imagenes/img-tv-samsung-smart.jpg" width="180" alt="Cafetera" class="product_img">
-                        <div class="box">
-                            <i class="fas fa-truck truck-icon"></i>
-                            <div class="container-product">
-                                <p class="precio">$6.770</p>
-                                <p class="off">40% off</p>
-                            </div>
-                            <h4 class="description">Samsung Smart TV 1000'</h4>
-                        </div>
-                    </div>
-                </article>      
-            </section>
-        </div>
-        
+                <dir class="btn-login">    
+                    <button type="reset">borrar</button>
+                </div>
+            </div>
+            
+        </form>
     </main>
     <footer>
         <div class="footer-container">

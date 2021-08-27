@@ -1,0 +1,22 @@
+
+
+
+.form-item{
+    text-align: center;
+}
+
+.footer-container{
+    margin-top: 30px;
+}
+
+.btn-contain{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn-login{
+    margin-top: 20px;
+    margin-right: 20px;
+}
