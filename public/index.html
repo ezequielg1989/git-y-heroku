@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      rel="stylesheet"/><link rel="preconnect" href="https://fonts.googleapis.com">
+      rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
@@ -14,17 +15,19 @@
 </head>
 <body>
     <header>
+        
         <div class="header">
             <div class="logo">
                 <img src="/imagenes/logo-mercado-liebre.svg" alt="no se encontro la imagen" class="logo">
             </div>
             <div class="search">
-                <input type="search"><button><i class="fas fa-search"></i></button>
+                <input type="search" size="20"><button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="text-header">
+                <i class="fas fa-hand-holding-usd"></i><span>compra en cuotas y sin tarjetas</span>
             </div>
         </div>
-        <div class="text-header">
-            <i class="fas fa-hand-holding-usd"></i><span>compra en cuotas y sin tarjetas</span>
-        </div>
+
         <nav class="nav">
             <div class="lista-1">
                 <ul>
@@ -43,13 +46,12 @@
                 </ul>
             </div>
             <div>
-                <span class="burger-menu"><i class="fas fa-align-justify"></i></span>
+                <span class="burger"><i class="fas fa-align-justify"></i></span>
             </div>
-
             <div class="lista-2">
                 <ul>
                     <li>
-                        <a href="crea tu cuenta">Crea tu cuenta<i class="header-icon far fa-address-card"></i>
+                        <a href="register.html">Crea tu cuenta<i class="header-icon far fa-address-card"></i>
                     </li>
                     <li>
                         <a href="ingresa">Ingresa<i class="header-icon fas fa-sign-in-alt"></i></a>
@@ -61,7 +63,7 @@
             </div>  
         </nav>
     </header>
-    <main>
+    <main class="box-main">
         <div class="container-main">
             <section class="banner">
                 <img src="/imagenes/img-home-banner.jpg" alt="">

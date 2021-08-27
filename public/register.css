@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-item{
+    margin-top: 20px;
+}
+.form-item label{
+    display: block;
+    
+}
+.input-form{
+    width: 80%;
+    margin-top: 10px;
+}
+
+.btn-register{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
