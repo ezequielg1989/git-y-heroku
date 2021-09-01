@@ -60,7 +60,7 @@ header{
     text-align: center;
     font-size: 18px;
     margin-bottom: 10px;
-    margin-left: 150px;
+    margin-left: 50%;
 }
 .lista-1, .lista-2{
     display: none;
