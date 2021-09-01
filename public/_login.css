@@ -4,19 +4,36 @@
 .form-item{
     text-align: center;
 }
-
-.footer-container{
-    margin-top: 30px;
-}
-
-.btn-contain{
-    display: flex;
+.main-box{
     text-align: center;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .btn-login{
-    margin-top: 20px;
+    display: inline-block;
     margin-right: 20px;
+}
+
+.btn-login button{
+    background-color: rgb(38, 38, 240);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 800;
+    width: 70px;
+    height: 30px;
+    border: 0px solid ;
+    margin-top: 20px;
+}
+.btn-login button:hover{
+    transition: 0.5s;
+    background-color: rgb(112, 112, 122);
+}
+
+
+
+
+
+.form-item label{
+    font-size: 1.5em;
 }

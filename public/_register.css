@@ -31,3 +31,25 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.btn-register button{
+    background-color: rgb(38, 38, 240);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 800;
+    width: 70px;
+    height: 30px;
+    border: 0px solid ;
+    margin-top: 20px;
+}
+.btn-register button:hover{
+    transition: 0.5s;
+    background-color: rgb(112, 112, 122);
+}
+
+.form-item .file{
+    margin-left: 100px;
+    margin-top: 10px;
+}
